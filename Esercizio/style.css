@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/* contenitore logo header */
+#logo{
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* Sfondo header */
+nav{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+nav h1{
+    padding-top: 1.5em;
+    color:  #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    white-space: break-spaces;
+}
+
+/* pulasante per iniziare */
+#bottone{
+    background-color:#f04c2f;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Rimozione sottolineatura link ancora */
+a{
+    text-decoration: none;
+}
+
+/* Testi celesti e spaziature */
+main h2{
+    margin-bottom: 0.5em;
+    padding-top: 1.5em;
+    color:  #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Notebook rotondo */
+#notebook{
+    border-radius: 120px;
+    margin-top: 20px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Blocco testimonianze */
+.testimonianza{
+background-color: #e22d0e;
+margin-top: 3em;
+padding-bottom: 2em;
+margin-bottom: 1em;
+}
+
+
+.testimonianza h2{
+    color: white;
+    font-size: 2em;
+}
+.testimonianza p{
+    margin-top: 2em;
+    font-style: italic;
+    color: white;
+}
+.testimonianza h3{
+    margin-top: 2em;
+    color: white;
+}
+.testimonianza h4{
+    font-size: 10px;
+    color: white;
+}
+
+/* Classe sezione 3 blocchi */
+.blocchi{
+    width: 80vw;
+    margin: auto;
+    border: 1px solid #dee1e3;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+.blocchi img{
+    width: 100%;
+}
+.ultimo{
+    margin-bottom: 2em;
+}
+footer{
+    background-color: #25a2c3;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+footer h2{
+    color: white;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: #c8e7f0;
+}
+hr{
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
